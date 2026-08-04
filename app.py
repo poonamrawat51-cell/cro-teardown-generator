@@ -11,8 +11,19 @@ st.set_page_config(
 
 # 2. Sidebar Configuration for API Key
 st.sidebar.title("⚙️ Configuration")
-api_key = st.sidebar.text_input("Enter Gemini API Key", type="password")
+import streamlit as st
+import google.generativeai as genai
 
+# Sidebar input for custom key
+user_key = st.sidebar.text_input("Enter Gemini API Key (Optional)", type="password")
+
+# Use user key if provided; otherwise, fallback to your Streamlit Secret
+api_key = user_key if user_key else st.secrets.get("GEMINI_API_KEY", "")
+
+if api_key:
+    genai.configure(api_key=api_key)
+else:
+    st.sidebar.warning("Please provide a Gemini API Key to proceed.")
 if not api_key:
     st.info("👈 Enter your Gemini API Key in the sidebar to start!")
     st.stop()
