@@ -23,7 +23,15 @@ if api_key:
 else:
     st.info("👈 Enter your Gemini API Key in the sidebar to start!")
     st.stop()
+# Helper function to load SKILL.md framework
+def load_cro_skill():
+    try:
+        with open("SKILL.md", "r") as f:
+            return f.read()
+    except FileNotFoundError:
+        return ""
 
+cro_skill_framework = load_cro_skill()
 # Configure Gemini
 model = genai.GenerativeModel('gemini-flash-latest')
 
