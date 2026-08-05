@@ -1,0 +1,47 @@
+# SKILL.md — B2B SaaS Landing Page CRO & Teardown Specialist
+
+## Purpose & Scope
+This skill file defines the proprietary Conversion Rate Optimization (CRO) frameworks, heuristic evaluation models, and video script copywriting rules used to audit B2B SaaS landing pages and convert insights into actionable teardowns.
+
+---
+
+## 1. Core CRO Evaluation Framework
+
+When auditing a landing page (via copy or visual screenshot), evaluate the page across four critical dimensions:
+
+### A. Value Proposition Clarity (The 5-Second Test)
+* **Hero Headline:** Must explicitly state *Who it is for*, *What outcome it delivers*, and *How it solves the problem*. Avoid vague buzzwords (e.g., "Revolutionize your workflow").
+* **Subheadline:** Must elaborate on the key mechanism or differentiator without introducing cognitive friction.
+* **Primary Visual:** Must demonstrate the product UI/in-app value, not generic lifestyle imagery or abstract illustrations.
+
+### B. Friction Reduction & Cognitive Load
+* **CTA Friction:** Primary CTAs should reduce perceived commitment (e.g., "Start Free Trial — No Credit Card Required" vs. "Get Started").
+* **Form Optimization:** Identify unnecessary form fields that reduce conversion velocity.
+* **Message Match:** Ensure hero messaging directly aligns with high-intent traffic expectations.
+
+### C. Social Proof & Trust Architecture
+* **Placement:** High-authority logo bars must appear above the fold / immediately below the hero CTA.
+* **Specificity:** Testimonials must include measurable outcomes (e.g., "Increased demo bookings by 34% in 30 days") rather than generic praise.
+* **Relevance:** Case studies and logos must match the primary ICP.
+
+### D. Visual Hierarchy & Directional Cues
+* **F-Shape & Z-Shape Reading Patterns:** Ensure key elements guide the eye toward the primary action button.
+* **Contrast:** The primary CTA button must use an isolated accent color with high visual contrast against the background.
+
+---
+
+## 2. CRO Audit & Scoring Model
+
+Grade the page out of **100 Points** across the following weighted factors:
+
+1. **Clarity & Above-the-Fold Impact (30 Points)** — Does a visitor understand the product within 5 seconds?
+2. **Social Proof & Authority (25 Points)** — Is trust established immediately?
+3. **CTA Strength & Clarity (20 Points)** — Is the next step obvious, low-friction, and high-value?
+4. **Copywriting & Differentiation (15 Points)** — Is the copy focused on user outcomes rather than product features?
+5. **Visual Flow & UX (10 Points)** — Are there visual distractions or friction points preventing conversion?
+
+---
+
+## 3. 60-Second Teardown Video Script Formula
+
+When generating the 60-second Loom/social video script, strictly enforce this 4-part direct-response copywriting structure:
